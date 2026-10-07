@@ -1,0 +1,186 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hello",
+                "hi",
+                "hey",
+                "good morning",
+                "good afternoon",
+                "good evening"
+            ],
+            "responses": [
+                "Hello! How can I help you?",
+                "Hi! Welcome. How can I assist you?",
+                "Hey! What can I help you with today?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "goodbye",
+                "see you",
+                "see you later",
+                "talk to you later"
+            ],
+            "responses": [
+                "Goodbye! Have a great day!",
+                "See you later!",
+                "Thank you for chatting with me. Goodbye!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "thank you",
+                "thanks",
+                "thank you so much",
+                "thanks a lot"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Happy to help!",
+                "Anytime! Let me know if you need anything else."
+            ]
+        },
+        {
+            "tag": "about",
+            "patterns": [
+                "what are you",
+                "who are you",
+                "tell me about yourself",
+                "what is this chatbot",
+                "what can you do"
+            ],
+            "responses": [
+                "I am an AI-powered retrieval-based chatbot designed to answer common questions.",
+                "I am a website chatbot that uses text similarity to find the most relevant response."
+            ]
+        },
+        {
+            "tag": "services",
+            "patterns": [
+                "what services do you provide",
+                "what services are available",
+                "what do you offer",
+                "tell me about your services"
+            ],
+            "responses": [
+                "We provide information, customer support, account assistance, pricing information, and general help."
+            ]
+        },
+        {
+            "tag": "support",
+            "patterns": [
+                "I need help",
+                "can you help me",
+                "I need support",
+                "help me",
+                "customer support"
+            ],
+            "responses": [
+                "Sure! Please describe your problem and I will try to help you.",
+                "I'm here to help. Please tell me what you need assistance with."
+            ]
+        },
+        {
+            "tag": "working_hours",
+            "patterns": [
+                "what are your working hours",
+                "when are you open",
+                "what time do you open",
+                "what time do you close",
+                "business hours"
+            ],
+            "responses": [
+                "Our working hours are Monday to Friday, 9:00 AM to 6:00 PM."
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "how can I contact you",
+                "contact details",
+                "how do I contact support",
+                "give me your contact information"
+            ],
+            "responses": [
+                "You can contact our support team through the contact section of the website."
+            ]
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                "where are you located",
+                "where is your office",
+                "location",
+                "office location"
+            ],
+            "responses": [
+                "Our office location information is available through the contact section of the website."
+            ]
+        },
+        {
+            "tag": "pricing",
+            "patterns": [
+                "what is the price",
+                "how much does it cost",
+                "pricing information",
+                "tell me the price",
+                "what are your charges"
+            ],
+            "responses": [
+                "Our pricing depends on the service selected. Please contact support for detailed pricing information."
+            ]
+        },
+        {
+            "tag": "refund",
+            "patterns": [
+                "how can I get a refund",
+                "refund policy",
+                "I want a refund",
+                "can I get my money back"
+            ],
+            "responses": [
+                "Please contact customer support with your order details to request a refund."
+            ]
+        },
+        {
+            "tag": "account",
+            "patterns": [
+                "how do I create an account",
+                "create an account",
+                "register",
+                "sign up",
+                "account registration"
+            ],
+            "responses": [
+                "You can create an account by selecting the registration option on the website."
+            ]
+        },
+        {
+            "tag": "login",
+            "patterns": [
+                "how do I login",
+                "login",
+                "sign in",
+                "I cannot login",
+                "login problem"
+            ],
+            "responses": [
+                "Use your registered email and password to sign in. If you have trouble logging in, contact support."
+            ]
+        },
+        {
+            "tag": "fallback",
+            "patterns": [],
+            "responses": [
+                "I'm sorry, I don't understand that question. Could you please rephrase it?",
+                "I couldn't find a suitable answer. Please try asking in a different way.",
+                "I'm not sure about that. Please contact support for more assistance."
+            ]
+        }
+    ]
+}
